@@ -1,0 +1,20 @@
+/* nav related styles*/
+nav{
+    display: contents;
+}
+nav h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; /* 131.944% */
+}
+nav h1{
+    color: #521d1d;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+}
