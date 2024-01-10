@@ -1,6 +1,7 @@
 /* nav related styles*/
 nav{
-    display: contents;
+    display: flex;
+    align-items: center;
 }
 nav h5 {
     color: #FFF;
@@ -17,4 +18,71 @@ font-family: Merriweather;
 font-size: 72px;
 font-weight: 900;
 line-height: 95px; /* 131.944% */
+}
+.banner{
+    padding: 30px 50px 60px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 50px;
+}
+/*main section styles */
+.img{
+    align-items: center;
+   inline-size:  400px;
+}
+.section-titl{
+    display: flex;
+    color: #F00;
+     text-align: center;
+     font-family: Inter;
+     font-weight: 700;
+}
+.section-description{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+ font-weight: normal;
+}
+.section h3 {
+    display: flex;
+    color: #F00;
+     text-align: center;
+     font-family: Inter;
+     font-weight: 700;
+     
+}
+.text-primary{
+    color:#F00 ;
+}
+/*about section styles */
+.about{
+    padding: 130px;
+    border-radius: 20px;
+    background: #FFF;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 98, 10);
+    border: 2px solid rgb(0, 55, 255);
+    border-radius: 10px;
+}
+.title-primary{
+       margin-bottom: 20px;
+       margin-top: 30px;
+}
+.description{
+    text-align: center;
+    border: #F00 solid skyblue;
+}
+.text-right p {
+    text-align: right;
+
+}
+.content-container{
+    text-align: right;
 }
