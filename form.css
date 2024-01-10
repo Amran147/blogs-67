@@ -65,11 +65,10 @@ font-weight: 500;
     background: #FFF;
 }
 .box{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(205, 98, 10);
-    border: 2px solid rgb(0, 55, 255);
-    border-radius: 10px;
+    float: 1px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #90f415;
 }
 .title-primary{
        margin-bottom: 20px;
@@ -85,4 +84,16 @@ font-weight: 500;
 }
 .content-container{
     text-align: right;
+}
+.container{
+    display: flex;
+}
+.fermentum{
+    gap: 5px;
+    align-items: last baseline;
+    border: 2px solid black;
+}
+.lang{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
